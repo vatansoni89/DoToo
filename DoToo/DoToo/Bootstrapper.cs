@@ -12,8 +12,7 @@ namespace DoToo
 {
     public abstract class Bootstrapper
     {
-        protected ContainerBuilder ContainerBuilder { get; private 
-        set; }
+        protected ContainerBuilder ContainerBuilder { get; private set; }
  
         public Bootstrapper()
         {

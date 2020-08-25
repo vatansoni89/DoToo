@@ -11,7 +11,7 @@ namespace DoToo
         {
             InitializeComponent();
 
-            //MainPage = new MainView();
+            MainPage = new NavigationPage(Resolver.Resolve<MainView>());
         }
 
         protected override void OnStart()
