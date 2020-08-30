@@ -17,6 +17,8 @@ namespace DoToo.Views
         {
             InitializeComponent();
             viewModel.Navigation = Navigation;
+
+            //The BindingContext actually provides MVVM pattern, here we are connecting View and ViewModel :)
             BindingContext = viewModel;
         }
     }
